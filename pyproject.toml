@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gpa"
+version = "0.1.0"
+description = "Calculate GPA statistics"
+license = "MIT"
+authors = ["Luke Sanborn <lukesanborn@outlook.com>"]
+readme = "README.md"
+keywords = ["gpa", "grades","calculator", "grade point average", "college","high school"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.4"
+pandas = "^1.5.1"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
