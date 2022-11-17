@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Algebra 1",
+        "year": 7,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Algebra 2",
+        "year": 8,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Spanish 1",
+        "year": 8,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "English 1",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Geometry",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Biology 1 Lab",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.5,
+        "credits":1.5,
+        "scale": "H"
+    },
+    {
+        "name": "AP World History",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "Spanish 2",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "Fine Art Photography",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "Physical Education",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":0.5,
+        "scale": "E"
+    },
+    {
+        "name": "English 2",
+        "year": 10,
+        "letter_grade": "A",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Precalculus",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "AP Computer Science A",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.5,
+        "scale": "AP"
+    },
+    {
+        "name": "AP Chemistry/Lab",
+        "year": 10,
+        "letter_grade": "A",
+        "gpa_weight": 1.5,
+        "credits":1.5,
+        "scale": "AP"
+    },
+    {
+        "name": "AP U.S History",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "Spanish 3",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "Physical Education",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 0.5,
+        "credits":0.5,
+        "scale": "E"
+    }
+]

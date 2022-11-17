@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Algebra 1",
+        "year": 8,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Spanish 1",
+        "year": 8,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "English 1",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Spanish 2",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "Modern World History",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Algebra 2",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "AP Biology/Lab 2",
+        "year": 9,
+        "letter_grade": "A",
+        "gpa_weight": 1.5,
+        "credits":1.5,
+        "scale": "AP"
+    },
+    {
+        "name": "Video and Photography",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":0.5,
+        "scale": "E"
+    },
+    {
+        "name": "Physical Education",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":0.5,
+        "scale": "E"
+    },
+    {
+        "name": "Standard First Aid/CPR",
+        "year": 9,
+        "letter_grade": "A+",
+        "gpa_weight": 0.0,
+        "credits":0.5,
+        "scale": "E"
+    },
+    {
+        "name": "English 2",
+        "year": 10,
+        "letter_grade": "A",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "Spanish 3",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "AP US History",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "Geometry",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "H"
+    },
+    {
+        "name": "AP Statistics",
+        "year": 10,
+        "letter_grade": "A",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "E"
+    },
+    {
+        "name": "AP Chemistry/Lab",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 1.5,
+        "credits":1.5,
+        "scale": "AP"
+    },
+    {
+        "name": "Nutrition for Health",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 0.5,
+        "credits":0.5,
+        "scale": "E"
+    },
+    {
+        "name": "Physical Education",
+        "year": 10,
+        "letter_grade": "A+",
+        "gpa_weight": 0.5,
+        "credits":0.5,
+        "scale": "E"
+    }
+]
