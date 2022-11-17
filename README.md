@@ -1,0 +1,1 @@
+https://blog.collegevine.com/how-to-calculate-your-gpa-use-this-step-by-step-guide/
