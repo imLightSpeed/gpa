@@ -70,5 +70,10 @@ class Course:
         return self.credit
 
     def to_dict(self) -> dict:
+        """Convert course to dictionary
+
+        Returns:
+            dict: information about the course
+        """
         return {"name": self.name, "year": self.year, "letter_grade": self.letter_grade, "weighted_grade": self.calc_weighted_grade(), "unweighted_grade": self.calc_unweighted_grade(),
                 "credits": self.credits, "gpa_weight": self.gpa_weight, "scale": self.credits}
