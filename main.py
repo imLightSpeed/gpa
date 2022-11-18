@@ -1,24 +1,22 @@
-import argparse
 from src import GPA
 import json 
+import pandas as pd
 
-path = "tests/data/test_grades copy.json"
-with open(path,"r") as file:
-    courses = json.load(file)
-gpa =  GPA(courses)
-print(f"CUW: {gpa.cumulative_unweighted_gpa():.3f}")
-print(f"CW: {gpa.cumulative_weighted_gpa():.3f}")
+students = {"Luke S":"data/luke_grades.json","Mikhail R":"data/mikhail_grades.json","Paul N":"data/paul_grades.json"}
+yearly_unweighted, yearly_weighted,cumulative_unweighted,cumulative_weighted  = [],[],[],[]
 
-print(gpa.yearly_unweighted_gpa().head(20))
-print(gpa.yearly_weighted_gpa().head(20))
+for s, path in students.items():
+    with open(path,"r") as file:
+        courses = json.load(file)
+    gpa =  GPA(courses)
+    yuw, yw,cuw,cw = gpa.stats(name=s, show=False)
+    yearly_unweighted.append(yuw)
+    yearly_weighted.append(yw)
+    cumulative_unweighted.append(cuw)
+    cumulative_weighted.append(cw)
 
+print(f"Cumulative Unweigted GPA:\n\n{pd.concat(cumulative_unweighted)}\n\n")
+print(f"Cumulative Weighted GPA:\n\n{pd.concat(cumulative_weighted)}\n\n")
 
-path = "tests/data/test_grades.json"
-with open(path,"r") as file:
-    courses = json.load(file)
-gpa =  GPA(courses)
-print(f"CUW: {gpa.cumulative_unweighted_gpa():.3f}")
-print(f"CW: {gpa.cumulative_weighted_gpa():.3f}")
-
-print(gpa.yearly_unweighted_gpa().head(20))
-print(gpa.yearly_weighted_gpa().head(20))
+print(f"Yearly Unweigted GPA:\n\n{pd.concat(yearly_unweighted,axis=1)}\n\n")
+print(f"Yearly Weighted GPA:\n\n{pd.concat(yearly_weighted,axis=1)}\n\n")

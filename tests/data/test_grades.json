@@ -134,5 +134,61 @@
         "gpa_weight": 0.5,
         "credits":0.5,
         "scale": "E"
+    },
+    {
+        "name": "AP Lang",
+        "year": 11,
+        "letter_grade": "A",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "AP Calculus",
+        "year": 11,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "UConn Physics",
+        "year": 11,
+        "letter_grade": "A",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "AP Physics/Lab",
+        "year": 11,
+        "letter_grade": "A",
+        "gpa_weight": 1.5,
+        "credits":1.5,
+        "scale": "AP"
+    },
+    {
+        "name": "AP Government",
+        "year": 11,
+        "letter_grade": "A+",
+        "gpa_weight": 1.0,
+        "credits":1.0,
+        "scale": "AP"
+    },
+    {
+        "name": "Nutrition for Health",
+        "year": 11,
+        "letter_grade": "A+",
+        "gpa_weight": 0.5,
+        "credits":0.5,
+        "scale": "E"
+    },
+    {
+        "name": "Standard First Aid/CPR",
+        "year": 11,
+        "letter_grade": "A+",
+        "gpa_weight": 0.5,
+        "credits":0.5,
+        "scale": "E"
     }
 ]
